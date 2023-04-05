@@ -123,6 +123,7 @@ background: #1C1E53;
 }
 
 .navbar1 {
+    clear: both;
    width: 100%;
    height: 92px;
 }
@@ -143,6 +144,7 @@ background: #1C1E53;
 
 
 .mainlogo {
+    
    
 }
 
@@ -220,7 +222,7 @@ p.contact {
     }
 
     .navbar {
-        height: auto;
+        height: 92px;
         flex-direction: column;
         align-items: flex-start;
         padding: 10px;
@@ -229,6 +231,7 @@ p.contact {
     .links-container  {
         width: 100%;
         flex-direction: column;
+        background-color: black;
        
 
         
@@ -248,3 +251,46 @@ p.contact {
     
 
 }
+
+.building {
+    display: flex;
+width: 100%;
+height: 760px;
+right: 0px;
+top: 0px;
+
+/* Tint blue */
+
+background: #1C1E53;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1.stellar {
+    display: flex;
+    position: relative;
+    width: 582px;
+    height: 222px;
+    color: #FFFFFF;
+ 
+    }
+
+p.tekst {
+   
+    display: flex;
+    position: relative;
+width: 562px;
+height: 56px;
+
+
+
+color: #FFFFFF;
+
+opacity: 0.7;
+}
+
