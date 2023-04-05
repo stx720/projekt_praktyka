@@ -109,17 +109,13 @@ line-height: 28px;
 color: #000000;
 }
 
-iframe {
-    
-border: none;
-}
 
 .navbar {
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 30px;
+ height: 92px;
 
 /* Tint blue */
 
@@ -127,42 +123,128 @@ background: #1C1E53;
 }
 
 .navbar1 {
-   width: 1600px;
+   width: 100%;
    height: 92px;
 }
 
+.links-container{ 
+    display: flex;
+     margin-right: 10%;
+    
+}
+.links-container a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.links-container li {
+    list-style: none;
+}
+
+
 .mainlogo {
+   
+}
+
+
+p.home {
+   
+    color: white;
+}
+
+p.about {
+  
+    color: white;
+}
+
+p.features {
+    
+    color: white;
+}
+
+p.pricing {
+    color: white;
+}
+
+p.faq {
+    color: white;
+}
+
+p.blog {
+    color: white;
+}
+
+p.contact {
+    color: white;
+}
+
+.contact-button{
+    height: 60px;
+    width: 185px;
+    border-radius: 41px;
+    border: 2px solid #F4F6FC33;
+    background-color: transparent;
+    
+}
+
+.toggle-button {
     position: absolute;
-    width: 122px;
-    height: 24.71px;
-    left: 160px;
-    top: 33px;
+    right: 10px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
 
 }
 
-.home {
-    position: absolute;
-    left: 45.88%;
-    right: 51.12%;
-    top: 34.66%;
-    bottom: 32.83%;
-    color: #FFFFFF;
+.toggle-button .pasek {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
 }
 
-.about {
-    position: absolute;
-    left: 50.88%;
-    right: 44.62%;
-    top: 34.83%;
-    bottom: 32.66%;
-    color: #BBBBCB;
-}
+@media (max-width: 480px) {
+    .toggle-button {
+        display: flex;
+        padding: 10px;
+    }
+    .links-container {
+      display: none;
+      width: 100%;
+    } 
+    .mainlogo
+    {
+        padding: 10px
+    }
 
-.features {
-    position: absolute;
-    left: 57.38%;
-    right: 38.25%;
-    top: 34.83%;
-    bottom: 32.66%;
-    color: #BBBBCB;
+    .navbar {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .links-container  {
+        width: 100%;
+        flex-direction: column;
+       
+
+        
+    }
+    .links-container a {
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+    .links-container.active {
+        display: flex;
+       
+    }
+
+    
+    
+
 }
