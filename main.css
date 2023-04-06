@@ -207,6 +207,132 @@ p.contact {
     border-radius: 10px;
 }
 
+
+    
+    
+
+
+
+.building {
+display: flex;
+width: 100%;
+height: 760px;
+/* Tint blue */
+background: #1C1E53;
+
+}
+
+
+
+.container1 {
+    display: flex;
+    justify-content:left;
+    flex-direction: column;
+    margin-left: 12%;
+    margin-top: 6%;
+
+ 
+}
+
+h1.stellar {
+    
+  
+    width: 582px;
+    height: 222px;
+    color: #FFFFFF;
+    margin-bottom: 2%;
+    }
+
+p.tekst {
+   
+    
+   
+width: 562px;
+height: 56px;
+    
+
+
+color: #FFFFFF;
+opacity: 0.7;
+}
+
+.hero{
+    display: flex; 
+    width: 638px;
+    height: 361.12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+
+}
+
+button.view {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 222px;
+height: 64px;
+border: 0px;
+
+/* Yellow */
+
+background: #FCD980;
+border-radius: 40px
+}
+
+button.view:hover{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 222px;
+height: 64px;
+background: #FDE4A6;
+border-radius: 40px;
+}
+
+p.ourwork{
+    width: 126px;
+height: 32px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+/* identical to box height, or 178% */
+color: #1B1C2A;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+a.pricing1 {
+    display: flex;
+    width: 98px;
+height: 28px;
+
+text-decoration: none;
+}
+
+p.ceny{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* nie otagowalem label2 bo tutaj jest inny kolor */
+    
+    
+    /* White */
+    
+    color: #FFFFFF;
+}
+
+
 @media (max-width: 480px) {
     .toggle-button {
         display: flex;
@@ -226,12 +352,14 @@ p.contact {
         flex-direction: column;
         align-items: flex-start;
         padding: 10px;
+        width: 100%;
     }
 
     .links-container  {
         width: 100%;
+      
         flex-direction: column;
-        background-color: black;
+        background: #1C1E53;
        
 
         
@@ -244,53 +372,14 @@ p.contact {
 
     .links-container.active {
         display: flex;
-       
+        position: relative;
+      
+           
     }
 
-    
-    
-
-}
-
-.building {
-    display: flex;
-width: 100%;
-height: 760px;
-right: 0px;
-top: 0px;
-
-/* Tint blue */
-
-background: #1C1E53;
-}
-
-
-
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
-h1.stellar {
-    display: flex;
-    position: relative;
-    width: 582px;
-    height: 222px;
-    color: #FFFFFF;
- 
-    }
-
-p.tekst {
    
-    display: flex;
-    position: relative;
-width: 562px;
-height: 56px;
+    
 
-
-
-color: #FFFFFF;
-
-opacity: 0.7;
+ 
+   
 }
-
