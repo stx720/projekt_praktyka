@@ -344,7 +344,7 @@ p.ceny{
 
 .design{
     width: 100%;
-    height: 1191px;
+    min-height: 1191px;
     display: flex;
     flex-direction: column;
     
@@ -485,6 +485,7 @@ margin-left: 48px;
     margin-bottom:12px;
     margin-left: 48px;
     margin-right: auto;
+    color: #282938;
 }
 
 .card-desc{
@@ -493,7 +494,44 @@ margin-left: 48px;
  opacity: 0.7;
  margin-left: 48px;
  margin-right: auto;
+ color: #282938;
 }
+
+
+.slider{
+    display: flex;
+    min-height: 506px;
+    background: #EBEEF4;
+    width: 100%;
+}
+
+
+.napisy1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 160px; 
+    padding-top: 130px;
+    
+}
+
+.clients{
+    height: 112px;
+    width: 327px;
+    color: #282938;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.clients-tekst{
+    width: 327px;
+    height: 56px;
+    color: #282938;
+    opacity: 0.7;
+    
+}
+
 
 
 @media (max-width: 1000px) {
@@ -603,6 +641,15 @@ margin-left: 48px;
         height: auto;
       }
 
+      .napisy1{
+        padding-left: 5%;
+      }
+
+      .clients, .clients-tekst {
+        width: 100%;
+        height: auto;
+        
+      }
 }
 
 
