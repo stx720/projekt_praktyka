@@ -571,7 +571,7 @@ margin-left: 48px;
     
 
       h1.stellar ,p.tekst, button.view,button.view:hover{
-        overflow-wrap: normal; /* dodana reguła */
+        
         height: auto;
        width: 100%;
        
@@ -596,6 +596,12 @@ margin-left: 48px;
         padding-left: 0;
       }
         
+
+
+      .solves{
+        width: 100%;
+        height: auto;
+      }
 
 }
 
