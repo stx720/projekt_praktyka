@@ -215,9 +215,10 @@ p.contact {
 .building {
 display: flex;
 width: 100%;
-height: 668px;
+min-height: 668px;
 /* Tint blue */
 background: #1C1E53;
+flex-wrap: wrap;
 
 
 }
@@ -262,12 +263,11 @@ transform: translateY(-25px);
 
 .hero{
     display: flex; 
-    
     width: 638px;
     height: 361.12px;
     margin-left: auto;
     margin-right: 160px;
-    margin-top: auto;
+    margin-top: 150px;
     margin-bottom: 157.88px;
 
 }
@@ -380,9 +380,8 @@ margin-top: 128px;
 height: 192px;
 color: #282938;
 text-align: center;
-margin-top: 12px;
-border: 1px solid black;
 margin-bottom: 47px;
+margin-top: -4px;
 
 
 }
@@ -395,7 +394,13 @@ margin-bottom: 47px;
     justify-content: center;
 }
 
-
+.zalety2{
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 .card{
     display: flex;
@@ -405,7 +410,6 @@ height: 316px;
 
 flex-direction: column;
 background: #FFFFFF;
-border: 1px solid black;
 margin-right: 32px;
 }
 
@@ -415,7 +419,6 @@ margin-right: 32px;
 height: 316px;
 background: #FFFFFF;
 flex-direction: column;
-border: 1px solid black;
 margin-right: 32px;
 
 }
@@ -425,7 +428,7 @@ margin-right: 32px;
     width: 405px;
 height: 316px;
 background: #FFFFFF;
-border: 1px solid black;
+
 flex-direction: column;
 
 
@@ -437,7 +440,7 @@ flex-direction: column;
 height: 316px;
 
 background: #FFFFFF;
-border: 1px solid black;
+
 flex-direction: column;
 
 margin-right: 32px;
@@ -447,7 +450,7 @@ margin-top: 24px;
     display: flex;
     width: 405px;
 height: 316px;
-border: 1px solid black;
+
 background: #FFFFFF;
 
 flex-direction: column;
@@ -463,14 +466,15 @@ height: 316px;
 background: #FFFFFF;
 flex-direction: column;
 margin-top: 24px;
-border: 1px solid black;
+
+
 }
 
 
 .icon1{
     height: 28px;
     width: 32px;
-    border: 1px solid black;
+
     margin-top: 51px;
 margin-left: 48px;
     
@@ -479,7 +483,6 @@ margin-left: 48px;
 .card-uses{
     margin-top: 25px;
     margin-bottom:12px;
-    border: 1px solid black;
     margin-left: 48px;
     margin-right: auto;
 }
@@ -488,7 +491,6 @@ margin-left: 48px;
  margin-top: 0;
  margin-left: 0.35px;
  opacity: 0.7;
- border: 1px solid black;
  margin-left: 48px;
  margin-right: auto;
 }
