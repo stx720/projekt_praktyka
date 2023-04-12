@@ -534,6 +534,156 @@ margin-left: 48px;
 }
 
 
+.footer{
+    display: flex;
+    width: 100%;
+    min-height: 397px;
+    background: #1C1E53;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+
+}
+
+    .footer-teskt{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        
+        
+    }
+
+
+    .hero1{
+        width: 160px;
+        height: 32.41px;
+        margin-left: 160px;
+        margin-top: 104px;
+        margin-bottom: 19.59px;
+        border: 1px solid black;
+   
+    }
+
+    .footer-desc{
+        margin-top: 0;
+        width: 399px;
+        height: 56px;
+        color: #FFFFFF;
+        opacity: 0.8;
+        margin-left: 160px;
+        margin-bottom: 86px;
+        
+    }
+
+
+    .email{
+        display: flex;
+        flex-wrap: wrap;
+        width: 517px;
+        height: 95px;
+        background: #FCD980;
+        margin-left: 160px;
+        flex-direction: row;
+        
+    }
+
+
+    .kolumna1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kolumna2{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .email-text{
+        margin-left: 36px;
+        margin-top: 18px;
+        margin-right: 102px;
+        width: 108px;
+        height: 32px;
+        color: #282938;
+        margin-bottom: 0;
+
+    }
+    
+
+    .email-text1{
+        width: 181px;
+        height: 28px;
+        color: #282938;
+        opacity: 0.8;
+        margin-left: 37px;
+        margin-top: 0;
+
+        
+    }
+
+    .email-text2{
+        width: 66px;
+        height: 32px;
+        color: #282938;
+        margin-bottom: 0;
+       
+    }
+
+    .email-text3{
+        width: 133px;
+        height: 28px;
+        color: #282938;
+        opacity: 0.8;
+        margin-top: 0;
+    
+    }
+
+
+    .footer-tekst2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+    .footer-desc1{
+        color: #FFFFFF;
+        height: 64px;
+        width: 333px;
+        margin-top: 96px;
+        margin-left: 144px;
+        margin-bottom: 0;
+
+    }
+
+    .footer-desc2{
+        color: #EBEEF4;
+        opacity: 0.8;
+        width: 399px;
+        height: 84px;
+        margin-left: 144px;
+        margin-top: 14px;
+        margin-bottom: 28px;
+    }
+
+
+
+    .ikony{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 144px;
+        
+        
+    }
+
+    .ikony > *{
+        width: 16px;
+        height: 16px;
+        margin-right: 26.70px;
+    }
+
 
 @media (max-width: 1000px) {
     .toggle-button {
