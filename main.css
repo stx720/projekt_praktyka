@@ -585,6 +585,7 @@ margin-left: 48px;
         margin-left: 160px;
         flex-direction: row;
         
+        
     }
 
 
@@ -764,7 +765,7 @@ margin-left: 48px;
     }
 
 
-
+    
 
 
 
@@ -777,7 +778,155 @@ margin-left: 48px;
     .blog-page{
         display: flex;
         width: 100%;
-        height: 2812px;
+        flex-wrap: wrap;
+        min-height: 2812px;
+        flex-direction: column;
+        background: white;
+    }
+
+    .blog-page > *{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        
+    }
+
+
+
+    .blog-text{
+        margin-top: 128px;
+        width: 949px;
+        height: 128px;
+        text-align: center;
+        margin-bottom: 0;
+        color: #282938;
+       
+    }
+
+
+
+
+    .blog-text1{
+        margin-top: 16px;
+        width: 359px;
+        height: 28px;
+        margin-bottom: 0;
+        text-align: center;
+        color: #282938;
+    }
+
+
+    .blog-photo{
+        margin-top: 48px;
+        width: 1280px;
+        height: 477px;
+
+    }
+
+
+    .blog-text2{
+        width: 842px;
+        height: 112px;
+        color: #282938;
+        margin-bottom: 0;
+       
+    }
+
+    .blog-text3{
+        margin-top: 32px;
+        width: 842px;
+        height: 224px;
+        opacity: 0.7;
+        margin-bottom: 0;
+    }
+
+    .blog-text4{
+        margin-top: 32px;
+        width: 842px;
+        height: 56px;
+        color: #282938;
+        margin-bottom: 0;
+    }
+
+    .blog-text5{
+        margin-top: 32px;
+       width: 842px;
+        height: 224px;
+        color: #282938;
+        opacity: 0.7;
+        margin-bottom: 0;
+    }
+
+    .blog-text6{
+        margin-top: -4px;
+        width: 842px;
+        height: 34.22px;
+        margin-bottom: 0;
+        color: #282938;
+        
+        opacity: 0.7;
+        
+    }
+
+    .blog-text7{
+        margin-top: 0;
+        width: 842px;
+        height: 68.44px;
+        margin-bottom: 0;
+        color: #282938;
+
+        opacity: 0.7;
+    }
+    .blog-text8{
+        margin-top: -8px;
+        width: 842px;
+        height: 34.22px;
+        color: #282938;
+        opacity: 0.7;
+        margin-bottom: 0;
+    }
+
+    .blog-text9{
+        margin-top: -4px;
+        color: #282938;
+        width: 842px;
+        height: 224px;
+        opacity: 0.7;
+        margin-bottom: 32px;
+    }
+
+  
+
+    .blog-photo1{
+        width: 841px;
+        height: 311px;
+        margin-bottom: 0;
+    }
+
+
+    .blog-text10{
+        margin-top: 56px;
+        width: 842px;
+        height: 56px;
+        color: #282938;
+        margin-bottom: 0;
+
+    }
+
+    .blog-text11{
+        margin-top: 32px;
+        width: 842px;
+        height: 224px;
+        color: #282938;
+        opacity: 0.7;
+    }
+
+    .ullista{
+        display: flex; 
+        flex-direction: column; 
+        list-style-type:square;
+        flex-wrap: wrap;
     }
 
 
@@ -826,7 +975,9 @@ margin-left: 48px;
     }
 
     .links-container.active {
-        width: 100%;
+        background: #1C1E53;
+        margin-left: 1px;
+        min-width: 100%;
         display: flex;
         position: relative;
         z-index: 999;
@@ -921,8 +1072,13 @@ margin-left: 48px;
 
       .email{
         flex-direction: column;
-        width: 100%;
+        width:100%;
+        margin:0;
+       
+       
       }
+
+      
 
       .ikony{
         margin-bottom: 10px;
@@ -931,6 +1087,7 @@ margin-left: 48px;
       .footer2{
         height: 100px;
         border: 1px solid #1C1E53;
+        border-style: solid none;
         width: 100%;
         
       }
@@ -950,6 +1107,33 @@ margin-left: 48px;
        display: none;
         
     }
+
+    .blog-text6, .blog-text7, .blog-text8{
+        
+        width: 100%;
+        height: auto;
+    }
+
+    .blog-page > *{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+
+    .ullistance{
+        width: 100%;
+        flex-wrap: wrap;
+        
+        }
+
+    .ullistance >*{
+        width: 100%;
+        height: auto;
+    }
+
+
 }
 
 
