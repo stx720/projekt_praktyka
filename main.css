@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
 
 html,
 body {
@@ -930,6 +931,329 @@ margin-left: 48px;
     }
 
 
+    .form-contact{
+        width: 100%;
+        display: flex; 
+        height: 1096px;
+        flex-direction: column;
+        background: white;
+    }
+
+    .form-contact > *{
+        margin-left: auto;
+        
+        margin-right: auto;
+    }
+
+
+    .contact-text{
+        margin-top: 128px;
+        text-align: center;
+        width: 269px;
+        height: 64px;
+        color: #282938;
+        margin-bottom: 0;
+    }
+
+    .contact-text1{
+        width: 562px;
+        height: 56px;
+        text-align: center;
+        color: #282938;
+        opacity: 0.7;
+    }
+
+    .formbox{
+        width: 1061px;
+        min-height: 640px;
+        background: #EBEEF4;
+        border-radius: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .contact-column1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+
+    .contact-column2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        
+    }
+
+    .form-label{
+        width: 55px;
+        height: 32px;
+        color: #000000;
+        margin-left: 77px;
+        margin-top: 55px;
+        margin-bottom: 6px;
+    }
+
+    .form-label1{
+        width: 85px;
+        height: 32px;
+        color: #000000;
+        margin-left: 77px;
+        margin-bottom: 6px;
+        margin-top: 24px;
+    }
+
+    .form-label2{
+        width: 82px;
+        height: 32px;
+        color: #000000;
+        margin-left: 77px;
+        margin-top: 16px;
+        margin-bottom: 6px;
+    }
+
+    .form-label3{
+        width: 85px;
+        height: 32px;
+        color: #000000;
+   
+      
+    }
+
+    .form-label4{
+        width: 69px;
+        height: 32px;
+      
+    }
+
+    .box{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 18px 32px;
+        gap: 10px;
+        width: 438px;
+        height: 64px;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        background: transparent;
+        margin-left: 77px;
+
+    }
+
+    .box1{
+        
+        box-sizing: border-box;
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 18px 32px;
+        gap: 10px;
+        width: 908px;
+        height: 138px;
+
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        margin-left: 77px;
+        background: transparent;
+    }
+
+    .box2{
+        box-sizing: border-box;
+
+/* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 438px;
+        height: 64px;
+        padding: 18px 32px;
+        gap: 10px;
+   
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        background: transparent;
+    }
+    
+    .box::placeholder{
+        width: auto;
+        height: 28px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #000000;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+            }
+
+            .box1::placeholder{
+                width: 196px;
+                height: 28px;
+
+                /* Body 1 */
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                /* identical to box height, or 175% */
+                
+
+                color: #000000;
+                
+
+                /* Inside auto layout */
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+
+            .box2::placeholder{
+                width: auto;
+                height: 28px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                color: #000000;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+
+            input.box{
+                
+
+                /* Body 1 */
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                /* identical to box height, or 175% */
+
+
+                color: #000000;
+
+
+                /* Inside auto layout */
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+
+            input.box1{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                /* identical to box height, or 175% */
+
+
+                color: #000000;
+
+
+                /* Inside auto layout */
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                padding-bottom: 92px;
+              
+                word-wrap: break-word;
+               
+            }
+
+            input.box2{
+                
+
+                /* Body 1 */
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                /* identical to box height, or 175% */
+
+
+                color: #000000;
+
+
+                /* Inside auto layout */
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+
+            .button-form{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 15px 51px;
+                gap: 10px;
+
+            
+                width: 254px;
+                height: 64px;
+               
+
+                /* Dark blue */
+
+                background: #282938;
+                border-radius: 41px;
+                margin-left: 77px;
+                margin-top: 32px;
+            }
+
+            .button-text{
+                
+                width: 125px;
+                height: 32px;
+
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 32px;
+                /* identical to box height, or 178% */
+
+
+                /* Grey */
+
+                color: #EBEEF4;
+
+
+                /* Inside auto layout */
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+          
+
+
+
+           
 @media (max-width: 1000px) {
     .toggle-button {
         display: flex;
@@ -1133,8 +1457,8 @@ margin-left: 48px;
         height: auto;
     }
 
-
-}
+  
+ 
 
 
     
