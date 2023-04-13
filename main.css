@@ -1468,6 +1468,36 @@ margin-left: 48px;
         height: auto;
     }
 
+    .formbox{
+        flex-direction:column-reverse;
+        width: 100%;
+    }
+
+   
+    .contact-column1 > *{
+        margin-left: 10px;
+    }
+    .contact-column2 > *{
+        margin-left: 10px;
+       
+    }
+
+
+    .box,.box1,.box2{
+        width: 100%;
+    }
+
+    .contact-text, .contact-text1{
+        width: 100%;
+        height: auto;
+    }
+
+    body {
+        overflow-x: hidden;
+      }
+
+   
+}
   
  
 
