@@ -934,7 +934,7 @@ margin-left: 48px;
     .form-contact{
         width: 100%;
         display: flex; 
-        height: 1096px;
+        min-height: 1096px;
         flex-direction: column;
         background: white;
     }
@@ -971,12 +971,14 @@ margin-left: 48px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+
     }
 
     .contact-column1{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        width: 50%;
         
     }
 
@@ -984,6 +986,7 @@ margin-left: 48px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        width: 50%;
         
         
     }
@@ -1019,6 +1022,9 @@ margin-left: 48px;
         width: 85px;
         height: 32px;
         color: #000000;
+        margin-top: 55px;
+        margin-bottom: 6px;
+        margin-left: 32px;
    
       
     }
@@ -1026,6 +1032,10 @@ margin-left: 48px;
     .form-label4{
         width: 69px;
         height: 32px;
+        margin-top: 24px;
+        margin-bottom: 6px;
+        margin-left: 32px;
+       
       
     }
 
@@ -1077,10 +1087,11 @@ margin-left: 48px;
         height: 64px;
         padding: 18px 32px;
         gap: 10px;
-   
+        
         border: 1px solid rgba(0, 0, 0, 0.12);
         border-radius: 8px;
         background: transparent;
+        margin-left: 32px;
     }
     
     .box::placeholder{
