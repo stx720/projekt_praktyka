@@ -546,7 +546,7 @@ margin-left: 48px;
 
 }
 
-    .footer-teskt{
+    .footer-tekst{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -572,7 +572,7 @@ margin-left: 48px;
         color: #FFFFFF;
         opacity: 0.8;
         margin-left: 160px;
-        margin-bottom: 86px;
+        margin-bottom: 90px;
         
     }
 
@@ -1264,7 +1264,292 @@ margin-left: 48px;
 
 
 
+            .about-box{
+                display: flex;
+                flex-direction: row;
+                min-height:1285px;
+                background:white;
+                width: 100%;
+                flex-wrap: wrap;
+            }
+
+            .about-container1{
+                display: flex;
+                flex-direction: column;
+                min-width: 50%;
+                flex-wrap: wrap;
+                
+
+            }
+
+            .about-text1{
+                width: 419px;
+                height: 32px;
+                margin-left: 160px;
+                margin-top: 152px;
+                margin-bottom: 0;
+                color: #282938;
+            }
+
+
+            .about-heading1{
+                margin-top: 8px;
+                margin-left: 160px;
+                width: 595px;
+                height: 148px;
+                margin-bottom: 0;
+                color: #282938;
+
+            }
+
+
+            .about-text2{
+                margin-left: 160px;
+                width: 484px;
+                height: 84px;
+                margin-top: 31px;
+                
+                color: #282938;
+                opacity: 0.7;
+            }
+
+
+            
+            .about-container2{
+                display: flex;
+                flex-direction: none;
+                min-width: 50%;
+                flex-wrap: wrap;
+
+            }
+
+            .about-photo{
+                width: 547px;
+                height: 336px;
+                margin-top: 128px;
+                margin-left: 138px;
+                margin-right: auto;
+                display: flex;
+            }
+
+            .about-div{
+                width: 100%;
+                justify-content: center;
+                display: flex;
+                
+            }
+            
+            .about-heading2{
+                display: flex;
+                width: 630px;
+                height: 128px;
+                text-align: center;
+                /* Dark blue */
+                color: #282938;
+                
+                
+               
+                
+
+            }
+
+            
+
+            .about-cards{
+                flex-wrap: wrap;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                
+                
+            }
+
+
+            .about-card1{
+                display: flex;
+                width: 405px;
+                height: 316px;
+                flex-direction: column;
+                background: #EBEEF4;
+                fill-opacity: 0.7;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                margin-bottom: 88px;
+                margin-right: 32px;
+              
+            }
+
+            .about-card2{
+                display: flex;
+               
+                width: 405px;
+                height: 316px;
+                flex-direction: column;
+                background: #EBEEF4;
+                fill-opacity: 0.7;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                margin-bottom: 88px;
+                margin-right: 32px;
+
+            }
+
+            .about-card3{
+                display: flex;
+               
+                width: 405px;
+                height: 316px;
+                flex-direction: column;
+                background: #EBEEF4;
+                fill-opacity: 0.7;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                margin-bottom: 88px;
+                margin-right: 32px;
+            }
+
+           .about-icon{
+            width: 32px;
+            height: 32px;
+            margin-left: 48px;
+            margin-top: 38px;
+            
+            
+           }
+
+           .card-title{
+            margin-top: 44px;
+            margin-left: 48px;
+            width: 314.75px;
+            height: 36px;
+            margin-bottom: 0;
+          
+
+           }
+
+           .about-card-desc{
+            margin-top: 11px;
+            margin-left: 48px;
            
+            width: 324.08px;
+                height: 112px;
+                color: #282938;
+
+                opacity: 0.7;   
+           }
+
+
+           .meet{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: 1600px;
+            min-height: 712px;
+            background: #EBEEF4;
+            width: 100%;
+            
+        }
+
+        .meet-header{
+            width: 357px;
+            height: 64px;
+            text-align: center;
+
+/* Dark blue */
+
+            color: #282938;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 128px;
+            margin-bottom: 48px;
+        }
+
+        .team{
+            
+                width: 100%;
+             
+                display: flex;
+                flex-direction: row;
+                margin-left: auto;
+                margin-right: auto;
+                flex-wrap: wrap;
+                justify-content: center;
+        }
+        
+        .member1{
+            margin-right: 32px;
+            display: flex;
+            flex-direction: column;
+            width: 296px;
+            height: 344px;
+            background: #FFFFFF;
+            margin-bottom: 10px;
+            
+            
+        }
+
+        .member2{
+            display: flex;
+            flex-direction: column;
+            width: 296px;
+            height: 344px;
+            background: #FFFFFF;
+            margin-right: 32px;
+            
+        }
+
+        .member3{
+            display: flex;
+            flex-direction: column;
+            width: 296px;
+            height: 344px;
+            background: #FFFFFF;
+            margin-right: 32px;
+            
+        }
+
+        .member4{
+            display: flex;
+            flex-direction: column;
+            width: 296px;
+            height: 344px;
+            background: #FFFFFF;
+            margin-right: 32px;
+            
+        }
+        
+        .member-photo1{
+            width: 168px;
+            height: 168px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 3px solid black;
+            border-radius: 50%;
+            margin-top: 48px;
+            background: linear-gradient(348.37deg, #5239FA 17.97%, rgba(255, 255, 255, 0) 79.2%);
+            margin-bottom: 0px;
+        }
+
+        .member-name{
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+
+/* b */
+
+            color: #1D2130;
+            margin-bottom: 0;
+        }
+
+        .member-class{
+            color: #1D2130;
+
+            opacity: 0.7;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2px;
+        }
+
+
 @media (max-width: 1000px) {
     .toggle-button {
         display: flex;
@@ -1400,6 +1685,24 @@ margin-left: 48px;
         margin-left:0;
         
       }
+
+
+      .footer-tekst{
+        width: 100%;
+      }
+
+      .footer-desc{
+        width: 100%;
+        
+      }
+      .footer-tekst2{
+        width: 100%;
+    
+      }
+
+      .footer-desc2{
+        width: 100%;
+      }
       
       .footer{
         flex-direction: column;
@@ -1409,8 +1712,26 @@ margin-left: 48px;
         flex-direction: column;
         width:100%;
         margin:0;
+        height: auto;
        
        
+      }
+
+
+      .email-text2{
+        margin-top:-10px ;
+        margin-left: 37px;
+      }
+
+      .email-text3{
+        margin-left: 37px;
+      }
+      .kolumna1{
+        width: 100%;
+      }
+
+      .kolumna2{
+        width: 100%;
       }
 
       
@@ -1492,15 +1813,68 @@ margin-left: 48px;
         height: auto;
     }
 
-   
+    .about-container1{
+        width: 100%;
+    }
 
+    
+
+    .about-heading1, .about-text1, .about-text2{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+   
+    .about-heading2{
+        width: 100%;
+        justify-content: center;
+        height: auto;
+    }
+    
+    .about-container2{
+        width: 100%;
+    }
+    
+
+    .about-photo{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;   
+        margin-top: 0;
+        margin-bottom: 30px;
+        
+    }
+
+   
    
 }
   
- 
-
-
     
+@media (max-width: 350px) { 
+    .about-card1,.about-card2, .about-card3{
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+      
+    }
     
+    .about-card-desc{
+        margin-left: 28px;
+       width: 100%;
+       margin-right: auto;
+       width: auto;
+       height: auto;
+    }
+    
+    .about-icon{
+        margin-left: 28px;
+    }
+    .card-title{
+        margin-left: 28px;
+    }
+    
+     }
+      
     
    
