@@ -233,9 +233,18 @@ flex-wrap: wrap;
     flex-direction: column;
     padding-left: 160px;
     padding-top:94px;
-    
+    margin-right: auto;
+   
 
  
+}
+
+.container2 {
+    flex-direction: column;
+    display: flex;
+    margin-right: 160px;
+    margin-left: 0;
+    justify-content: center;
 }
 
 h1.stellar {
@@ -266,8 +275,7 @@ transform: translateY(-25px);
     display: flex; 
     width: 638px;
     height: 361.12px;
-    margin-left: auto;
-    margin-right: 160px;
+
     margin-top: 150px;
     margin-bottom: 157.88px;
 
@@ -1781,9 +1789,15 @@ margin-left: 48px;
         
     }
 
+    .container2{
+        margin-right: 0;
+    }
+
    .hero{
-    margin-left: auto;
-    margin-right: auto;
+        justify-content: center;
+        height: auto;
+        width: auto;
+        margin-right:0;
    }
 
    .about-card1,.about-card2,.about-card3{
