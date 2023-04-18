@@ -823,6 +823,7 @@ margin-left: 48px;
         margin-bottom: 0;
         text-align: center;
         color: #282938;
+        justify-content: center;
     }
 
 
@@ -1721,6 +1722,22 @@ margin-left: 48px;
         padding: 10px
     }
 
+    .contact-button{
+        margin-bottom: 35px;
+    }
+
+    .links-container.active > *{
+        margin-left:20px;
+    }
+    .mainlogo{
+        margin-left:10px;
+        
+    }
+
+    .home{
+        margin-top: 54px;
+    }
+
     .navbar {
         height: 92px;
         flex-direction: column;
@@ -1771,7 +1788,17 @@ margin-left: 48px;
            
     }
 
-   
+   /*Nie wiem co zrobić żeby punktory i tekst zmieściły się ze sobą na całej szerokości ekranu. */
+    .ullista{
+        padding-left: 1px;
+    }
+    
+    .ullista > * {
+       
+        margin-bottom: 10px;
+           
+        }
+
 
     .building {
         flex-wrap: wrap;
@@ -1780,14 +1807,19 @@ margin-left: 48px;
         
     }
     
+
+
+  
       
     .building > * {
        
         
-        width: 100%;
+        width: auto;
         height: auto;
         
     }
+
+ 
 
     .container2{
         margin-right: 0;
@@ -1796,8 +1828,9 @@ margin-left: 48px;
    .hero{
         justify-content: center;
         height: auto;
-        width: auto;
+        width: 100%;
         margin-right:0;
+        margin-top: 20px;
    }
 
    .about-card1,.about-card2,.about-card3{
@@ -1978,6 +2011,17 @@ margin-left: 48px;
        
     }
 
+    .contact-column1{
+        width: 90%;
+    }
+    .contact-column2{
+        width: 90%;
+    }
+
+    .button-form{
+        margin-bottom: 15px;
+    }
+
 
     .box,.box1,.box2{
         width: 100%;
@@ -1992,7 +2036,9 @@ margin-left: 48px;
         width: 100%;
     }
 
-    
+    html{
+        overflow-x: hidden;
+    }
 
     .about-heading1, .about-text1, .about-text2{
         width: 100%;
@@ -2078,6 +2124,10 @@ margin-left: 48px;
 
 
     
+    .ullista {
+        padding-left: 1px;
+           
+        }
     
      }
       
